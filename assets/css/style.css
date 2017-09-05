@@ -1,0 +1,59 @@
+
+
+#landing {
+    height: 100vh;
+    /* background: url("../images/cityBG.jpeg"); */
+    background: url("../images/cityBG.jpeg") fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#myHeader {
+    color: white;
+}
+
+#name {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 3.4em;
+}
+
+#description {
+    font-family: 'Lora', serif;
+}
+
+#someContent {
+    height: 100vh;
+    background-image: url("../images/cloudyBG.jpeg");
+
+}
+
+#aboutMe {
+    height: 100vh;
+    background: #B32020;
+
+}
+
+#someStuff {
+    height: 100vh;
+    background: #11BADF;
+
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-image {
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+
